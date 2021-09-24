@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- important meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HackZurich</title>
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="HackZ"
+        agent-id="811ae77b-c17b-4794-a977-7bc2bda7ae36"
+        language-code="en"
+    ></df-messenger>
+
+    <!-- JQuery -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
