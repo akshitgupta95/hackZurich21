@@ -48,11 +48,7 @@
 }
 
 #home-section {
-  background: linear-gradient(
-    to bottom,
-    #7d03ffa9 0%,
-    #00c0c0ab 100%
-  ) !important;
+  background: linear-gradient(to bottom, #d3a9ff 0%, #23f3f3ab 100%) !important;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -103,4 +99,13 @@
   width: 100%;
   height: 100%;
   display: table;
+}
+
+p {
+  font-size: 400%;
+  color: rgba(124, 33, 151, 0.63);
+}
+
+p span {
+  color: aqua;
 }
