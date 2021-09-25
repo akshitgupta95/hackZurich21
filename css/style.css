@@ -101,11 +101,82 @@
   display: table;
 }
 
-p {
+.p1 {
   font-size: 400%;
-  color: rgba(124, 33, 151, 0.63);
+  color: rgb(111, 0, 255);
 }
 
-p span {
+.p1 span {
   color: aqua;
+}
+
+/* =========================================
+                About
+============================================ */
+.about-item {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px 10px;
+  -webkit-box-shadow: 0 0 15px rgb(90, 222, 226);
+  box-shadow: 0 0 30px rgb(90, 222, 226);
+}
+
+.about-item i {
+  font-size: 42px;
+  margin: 0;
+  font-size: 60px;
+  color: rgb(111, 0, 255);
+}
+
+.about-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(111, 0, 255);
+}
+
+.about-item hr {
+  width: 45px;
+  height: 3px;
+  background-color: #00ffff;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p {
+  margin-top: 18px;
+  color: rgb(111, 0, 255);
+}
+
+/*Hover state*/
+.about-item:hover {
+  background: linear-gradient(
+    to bottom,
+    #bb00fa6c 0%,
+    #00ffff52 100%
+  ) !important;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: white;
+}
+
+.about-item:hover hr {
+  background-color: white;
+}
+
+.about-item:hover i {
+  transform: translateY(-25px);
+}
+
+.about-item,
+.about-item i,
+.about-item hr {
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
