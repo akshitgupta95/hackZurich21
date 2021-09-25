@@ -23,3 +23,84 @@
   margin-top: -35px;
   margin-left: -35px;
 }
+
+/* =========================================
+                Homepage
+============================================ */
+#home {
+  background: none;
+  height: 100vh;
+  border-style: solid;
+  padding: 30px;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  font-size: 19px;
+  color: white;
+  text-shadow: 2px 2px 4px #6600cc;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #f4f4f5, 0 0 25px #9999ff, 0 0 5px #f2e6ff;
+  grid-area: middle1;
+  background: linear-gradient(to bottom, #d3a9ff 0%, #00ffff 100%) !important;
+  box-shadow: 0 8px 32px 0 rgba(158, 164, 243, 0.534) !important;
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+#home-section {
+  background: linear-gradient(
+    to bottom,
+    #7d03ffa9 0%,
+    #00c0c0ab 100%
+  ) !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /*move to the left 50% and to the top*/
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+}
+
+#home-overlay {
+  border-style: solid;
+  padding: 20px;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  font-size: 19px;
+  color: white;
+  text-shadow: 2px 2px 4px #6600cc;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #f4f4f5, 0 0 25px #9999ff, 0 0 5px #f2e6ff;
+  grid-area: middle1;
+  box-shadow: 0 8px 32px 0 rgba(158, 164, 243, 0.534) !important;
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#home-content {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
