@@ -431,3 +431,48 @@ footer p {
 footer p span {
   color: #f4c613;
 }
+
+/* =========================================
+                Footer
+============================================ */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-weight: 500;
+  border-radius: 29px;
+  background: #bfa2dd;
+  box-shadow: 26px 26px 51px #917ba8, -26px -26px 51px #edc9ff;
+  font-family: 'Work Sans', sans-serif;
+  background: rgba(206, 146, 238, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.rainbow-1:hover {
+  background-image: linear-gradient(
+    90deg,
+    #6f00ff 0%,
+    #f700ff 49%,
+    #4ff6fc 80%,
+    #ff009d 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
